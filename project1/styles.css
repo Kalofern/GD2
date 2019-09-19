@@ -17,3 +17,8 @@ body {
     margin-left: 200px;
     background-color: darkgrey
 }
+
+div {
+    text-align: center;
+    font-size: 30px
+}
