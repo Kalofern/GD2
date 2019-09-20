@@ -29,9 +29,10 @@ p {
 .sub-border {
     background-color: white;
     text-align: left;
-    padding: 20px
+    padding: 50px
 }
 
 blockquote {
-    font-size: 30px
+    font-size: 45px;
+    text-align: center;
 }
