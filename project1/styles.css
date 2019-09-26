@@ -15,11 +15,18 @@ body {
     max-width: 800px;
     background-color: darkgrey;
     font-family: 'Abel', sans-serif;
+    color: black
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background: #fff
 }
 
 div {
     text-align: center;
-    font-size: 80px
+    font-size: 80px;
 }
 
 p {
@@ -27,7 +34,7 @@ p {
 }
 
 .sub-border {
-    background-color: gray;
+    background-color: cadetblue;
     text-align: left;
     padding: 50px
 }
@@ -35,4 +42,9 @@ p {
 blockquote {
     font-size: 45px;
     text-align: center;
+    color: black
+}
+
+.star {
+    color: white
 }
