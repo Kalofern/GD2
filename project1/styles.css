@@ -10,7 +10,7 @@ h1 {
 h2 {
     font-size: 20px;
     text-align: center;
-    background-color: darkgrey
+    background-color: darkgrey;
 }
 
 body {
@@ -18,13 +18,13 @@ body {
     max-width: 800px;
     background-color: darkgrey;
     font-family: 'Abel', sans-serif;
-    color: black
+    color: black;
 }
 
 hr {
     width: 100%;
     height: 2px;
-    background: #fff
+    background: #fff;
 }
 
 div {
@@ -33,13 +33,13 @@ div {
 }
 
 p {
-    font-size: 20px
+    font-size: 20px;
 }
 
 .sub-border {
     background-color: cadetblue;
     text-align: left;
-    padding: 50px
+    padding: 50px;
 }
 
 blockquote {
