@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
+    border: 3px solid red;
 
 }
 
 .u-button-reset {
-    background: transparent;
-    border: 0;
+    background: rgba(77, 28, 255, 0.527);
     cursor: pointer;
     font-family: inherit;
     font-size: inherit;
@@ -16,10 +16,9 @@
 
 h1 {
     font-family: 'Righteous', cursive;
-    font-size: 64px;
+    font-size: 80px;
     text-align: center;
-
-
+    margin: 0;
 }
 
 h2 {
@@ -27,23 +26,56 @@ h2 {
     font-size: 45px
 }
 
+nav {
+    margin-bottom: 60px;
+    font-family: 'Overpass', sans-serif;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li+li {
+    margin-left: 100px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: whitesmoke;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    color: hsl(194, 100%, 50%);
+}
+
 body {
     background-color: rgb(13, 0, 88);
     color: whitesmoke;
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Overpass', sans-serif;
     font-size: 25px;
 }
 
 .cardbox {
     position: absolute;
-    top: 60px;
-    left: 800px;
+    top: 290px;
+    left: 900px;
     background-color: hsla(241, 79%, 38%, 0.678);
-    padding: 100px 200px;
+    padding: 0px 30px;
+    width: 640px;
+    height: 640px;
 }
 
 .moreinfo {
-    font-family: 'Questrial', sans-serif;
+    font-family: 'Overpass', sans-serif;
     font-size: 34px;
     color: whitesmoke;
     background: border-box;
