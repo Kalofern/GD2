@@ -1,8 +1,9 @@
 * {
     box-sizing: border-box;
     border: 3px solid red;
-
 }
+
+h2 {}
 
 .u-button-reset {
     background: rgba(77, 28, 255, 0.527);
@@ -18,12 +19,12 @@ h1 {
     font-family: 'Righteous', cursive;
     font-size: 80px;
     text-align: center;
-    margin: 0;
+    margin: 50px 0;
 }
 
 h2 {
     font-family: 'Overpass', sans-serif;
-    font-size: 45px
+    font-size: 20px;
 }
 
 nav {
@@ -48,6 +49,7 @@ li a {
     color: whitesmoke;
     margin-right: 4px;
     margin-left: 4px;
+    margin-bottom: 4px;
     padding: 5px;
     text-decoration: none;
 }
@@ -61,26 +63,72 @@ body {
     background-color: rgb(13, 0, 88);
     color: whitesmoke;
     font-family: 'Overpass', sans-serif;
-    font-size: 25px;
+    font-size: 12px;
 }
 
 .cardbox {
-    position: absolute;
-    top: 290px;
-    left: 900px;
-    background-color: hsla(241, 79%, 38%, 0.678);
-    padding: 0px 30px;
+    position: relative;
     width: 640px;
-    height: 640px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+i {
+    color: aliceblue;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    /* left: 900px; */
+    /* background-color: hsla(241, 79%, 38%, 0.678); */
+    background-image: linear-gradient(rgba(89, 0, 255, 0.774), rgb(47, 0, 255));
+    padding: 0px 30px;
+    /*width: 640px;*/
+    /* height: 640px; */
+}
+
+.button-wrapper {
+    text-align: center;
 }
 
 .moreinfo {
     font-family: 'Overpass', sans-serif;
-    font-size: 34px;
+    font-size: 15px;
     color: whitesmoke;
-    background: border-box;
+    padding: 20px;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    border: 3px solid aqua;
+    background-color: aqua;
 }
 
 .moreinfo:hover {
     background: rgb(77, 28, 255);
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.card-top:after {
+    content: "";
+    display: block;
+    height: 400px;
+    margin-top: -405px;
+    position: relative;
+    width: 100%;
+}
+
+.ratingsection {
+    /* height: 5px; */
+}
+
+.fas+.rating {
+    display: inline;
 }
