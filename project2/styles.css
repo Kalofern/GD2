@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    border: 3px solid red;
+    /* border: 3px solid red; */
 }
 
 h2 {}
@@ -103,12 +103,12 @@ i {
     margin-right: auto;
     margin-left: auto;
     text-decoration: none;
-    border: 3px solid aqua;
-    background-color: aqua;
+    /* border: 3px solid aqua; */
+    background-color: rgb(13, 0, 88);
 }
 
 .moreinfo:hover {
-    background: rgb(77, 28, 255);
+    background: aqua;
 }
 
 img {
@@ -131,4 +131,9 @@ img {
 
 .fas+.rating {
     display: inline;
+}
+
+.extend {
+    display: block;
+    /* color: transparent; */
 }
