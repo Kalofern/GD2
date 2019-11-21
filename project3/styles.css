@@ -116,7 +116,7 @@ span input {
 
 textarea {
     height: 300px;
-    width: inherit;
+    width: 100%;
 }
 
 input[type="radio"],
