@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    border: 3px solid red;
+}
+
+.u-button-reset {
+    background: rgba(77, 28, 255, 0.527);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 300px;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
+
+h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+h2 {
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+}
+
+nav {
+    margin-bottom: 60px;
+    font-family: 'Overpass', sans-serif;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li+li {
+    margin-left: 100px;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: whitesmoke;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    color: hsl(194, 100%, 50%);
+}
+
+body {
+    background-color: rgb(13, 0, 88);
+    color: whitesmoke;
+    font-family: 'Overpass', sans-serif;
+    font-size: 12px;
+}
+
+.cardbox {
+    position: relative;
+    width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+i {
+    color: whitesmoke;
+}
+
+.content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    /* left: 900px; */
+    /* background-color: hsla(241, 79%, 38%, 0.678); */
+    background-image: linear-gradient(rgba(89, 0, 255, 0.774), rgb(47, 0, 255));
+    padding: 0px 30px;
+    /*width: 640px;*/
+    /* height: 640px; */
+}
+
+.button-wrapper {
+    text-align: center;
+}
+
+.moreinfo {
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 20px;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    text-decoration: none;
+    /* border: 3px solid aqua; */
+    background-color: rgb(13, 0, 88);
+}
+
+.moreinfo:hover {
+    background: aqua;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.card-top:after {
+    content: "";
+    display: block;
+    height: 400px;
+    margin-top: -405px;
+    position: relative;
+    width: 100%;
+}
+
+.ratingsection {
+    /* height: 5px; */
+}
+
+.fas+.rating {
+    display: inline;
+}
