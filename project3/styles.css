@@ -12,20 +12,9 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    border: 1px solid red;
-}
-
-.button-reset {
-    background: transparent;
-    border: 0;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 30px;
-    font-weight: inherit;
-    padding: 0;
-    text-align: inherit;
 
 }
+
 
 
 body {
@@ -108,6 +97,9 @@ textarea {
 
 select {
     cursor: pointer;
+    background-color: var(--color-offwhite);
+    height: 30px;
+
 }
 
 span input {
@@ -128,6 +120,21 @@ input[type="checkbox"] {
     cursor: pointer;
     height: 12px;
     width: 12px;
+    display: inline-block;
 }
 
-/* @media (min-width: 700px) { */
+input[type="radio"] {
+    border-radius: 50%;
+}
+
+.button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+
+}
