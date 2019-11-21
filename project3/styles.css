@@ -8,6 +8,34 @@
 
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.button-reset {
+    background: var(--color-green);
+    border: 0;
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+    font-size: 30px;
+    font-weight: inherit;
+    padding: 30px;
+    text-align: center;
+    display: inline;
+}
+
+
+body {
+    background-color: var(--color-blue);
+    border: 10px solid var(--color-green);
+    padding: 35px;
+    color: var(--color-offwhite);
+    font-family: var(--font-sans);
+
+}
+
 input[type="radio"],
 input[type="checkbox"] {
     -moz-appearance: none;
@@ -15,7 +43,7 @@ input[type="checkbox"] {
     appearance: none;
 }
 
-Collapse h1 {
+h1 {
     font-family: 'Teko', sans-serif;
     font-size: 2em;
     text-align: center;
@@ -42,27 +70,54 @@ h3 {
 }
 
 .form {
-    background-color: var(--color-offblack);
     text-align: left;
     padding: 50px;
 }
 
-div {
-    display: inline-block;
+legend {
+    font-family: 'Teko', sans-serif;
 }
 
-@media (min-width: 700px) {
-
-    body {
-        background-color: hotpink;
-    }
-
-    h1 {
-        font-size: 100px;
-    }
-
-    form {
-        background-color: limegreen;
-    }
-
+.size {
+    padding-left: 360px;
+    padding-right: 360px;
+    background-color: var(--color-offblack);
 }
+
+fieldset {
+
+    border: 0;
+    padding: 0;
+}
+
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+select {
+    cursor: pointer;
+}
+
+textarea {
+    height: 300px;
+    width: 300px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 3px solid black;
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+}
+
+
+
+
+/* @media (min-width: 700px) { */

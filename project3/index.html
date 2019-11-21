@@ -17,71 +17,89 @@
 
     <form action="">
         <form>
-            <fieldset>
-                <legend>IDENTITY</legend>
-                <label for="real-name"> Real Name: </label>
-                <input id="real-name" type="text" name="realname" required>
-                <label for="alias">Alias:</label>
-                <input id="alias" type="text" name="alias" required>
-                <label for="email"> Email: </label>
-                <input id="email" type="text" name="email" required>
-            </fieldset>
-            <fieldset>
-                <legend>PERSONAL CHARACTERISTICS</legend>
-                <label for="age"> Age:</label>
-                <input id="age" type="number" placeholder="" required>
+            <div class="size">
                 <fieldset>
-                    <legend>Category</legend>
-                    <input name="category" id="alien" type="checkbox">
-                    <label for="alien">Alien</label>
-                    <input name="category" id="cyborg" type="checkbox">
-                    <label for="cyborg">Cyborg</label>
-                    <input name="category" id="experiment" type="checkbox">
-                    <label for="experiment">Experiment</label>
-                    <input name="category" id="human" type="checkbox">
-                    <label for="human">Human</label>
-                    <input name="category" id="inhuman" type="checkbox">
-                    <label for="inhuman">Inhuman</label>
-                    <input name="category" id="mutant" type="checkbox">
-                    <label for="mutant"> Mutant</label>
-
+                    <legend>IDENTITY</legend>
+                    <label for="real-name"> Real Name: </label>
+                    <input id="real-name" type="text" name="realname" required>
+                    <label for="alias">Alias:</label>
+                    <input id="alias" type="text" name="alias" required>
+                    <label for="email"> Email: </label>
+                    <input id="email" type="text" name="email" required>
                 </fieldset>
                 <fieldset>
-                    <legend>Gender</legend>
-                    <input name="gender" id="woman" type="radio">
-                    <label for="woman">Woman</label>
+                    <legend>PERSONAL CHARACTERISTICS</legend>
+                    <label for="age"> Age:</label>
+                    <input id="age" type="number" placeholder="" required>
+                    <fieldset>
+                        <legend>Category</legend>
+                        <input name="category" id="alien" type="checkbox">
+                        <label for="alien">Alien</label>
+                        <input name="category" id="cyborg" type="checkbox">
+                        <label for="cyborg">Cyborg</label>
+                        <input name="category" id="experiment" type="checkbox">
+                        <label for="experiment">Experiment</label>
+                        <input name="category" id="human" type="checkbox">
+                        <label for="human">Human</label>
+                        <input name="category" id="inhuman" type="checkbox">
+                        <label for="inhuman">Inhuman</label>
+                        <input name="category" id="mutant" type="checkbox">
+                        <label for="mutant"> Mutant</label>
 
-                    <input name="gender" id="man" type="radio">
-                    <label for="man">Man</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Gender</legend>
+                        <input name="gender" id="woman" type="radio">
+                        <label for="woman">Woman</label>
 
-                    <input name="gender" id="nonbinary" type="radio">
-                    <label for="nonbinary">Nonbinary</label>
+                        <input name="gender" id="man" type="radio">
+                        <label for="man">Man</label>
 
-                    <input name="gender" id="genderqueer" type="radio">
-                    <label for="genderqueer">Genderqueer/Genderfluid</label>
+                        <input name="gender" id="nonbinary" type="radio">
+                        <label for="nonbinary">Nonbinary</label>
 
-                    <input name="gender" id="perfernottoanswer" type="radio">
-                    <label for="perfernottoanswer">Perfer ot to answer</label>
+                        <input name="gender" id="genderqueer" type="radio">
+                        <label for="genderqueer">Genderqueer/Genderfluid</label>
 
-                    <input name="gender" id="selfdescribe" type="radio">
-                    <label for="selfdescribe">Prefer to self describe</label>
-                    <label for="selfdescribe">Describe your Gender</label>
-                    <textarea name="selfdescribe" id="selfdescribe"></textarea>
+                        <input name="gender" id="perfernottoanswer" type="radio">
+                        <label for="perfernottoanswer">Perfer ot to answer</label>
+
+                        <input name="gender" id="selfdescribe" type="radio">
+                        <label for="selfdescribe">Prefer to self describe</label>
+                        <label for="selfdescribe">Describe your Gender:</label>
+                        <textarea name="selfdescribe" id="selfdescribe"></textarea>
+
+                    </fieldset>
+                </fieldset>
+                <fieldset>
+                    <legend>POWERS & ABLITIES</legend>
+                    <label for="powersandabliities" id="describepower">Describe Your Powers:</label>
+                    <textarea name="describepower" id="message" required></textarea>
+
+                    <legend>Rate Your Abilities:</legend>
+
+                    <label for="strength">Strength:</label>
+                    <select name="powersandabliities" id="Strength">
+                        <option value="humannorms">Within Human Norms</option>
+                        <option value="beyondnorms">Significantly Beyond Norms</option>
+
+                    </select>
+                    <label for="speed">Speed:</label>
+                    <select name="powersandabliities" id="speed">
+                        <option value="humannorms">Within Human Norms</option>
+                        <option value="beyondnorms">Significantly Beyond Norms</option>
+
+                    </select>
+                    <label for="intelligence">Intelligence:</label>
+                    <select name="powersandabliities" id="intelligence">
+                        <option value="humannorms">Within Human Norms</option>
+                        <option value="beyondnorms">Significantly Beyond Norms</option>
+
+                    </select>
 
                 </fieldset>
-            </fieldset>
-            <fieldset>
-                <legend>POWERS & ABLITIES</legend>
-                <label for="powersandabliities" id="describepower">Describe Your Powers:</label>
-                <textarea name="describepower" id="message" name="message" required></textarea>
-
-                <label for="powersandabliities"> </label>
-                <select name="" id="Strength">
-                    <option value="fern">fern</option>
-                    <option value="fern">fern</option>
-                </select>
-
-            </fieldset>
+                <button class="button-reset" type="submit">Register Now</button>
+            </div>
 
         </form>
 </body>
