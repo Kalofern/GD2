@@ -1,0 +1,132 @@
+:root {
+    --color-red: #c61a3a;
+    --color-green: #71f79f;
+    --color-offblack: #1e2019;
+    --color-grey: #d1d5de;
+    --color-offwhite: #fafafa;
+    --color-blue: #163346;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    background-color: var(--color-blue);
+    color: var(--color-offwhite);
+    font-family: 'BenchNine', sans-serif;
+
+
+}
+
+button[type="submit"] {
+    background-color: var(--color-green);
+    display: block;
+    height: 87px;
+    width: 205px;
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+input[type="radio"],
+input[type="checkbox"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+
+h3 {
+    font-family: 'Teko', sans-serif;
+    color: var(--color-offwhite);
+}
+
+legend {
+    display: block;
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+}
+
+fieldset span {
+    display: block;
+}
+
+form {
+    background: var(--color-offblack);
+    padding: 18px;
+    margin-top: 520px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+    max-width: 1000px;
+
+}
+
+input,
+select,
+textarea {
+    display: block;
+    font-family: 'BenchNine', sans-serif;
+    font-size: inherit;
+}
+
+
+select {
+    cursor: pointer;
+    background-color: var(--color-offwhite);
+    height: 30px;
+
+}
+
+span input {
+    display: inline;
+}
+
+textarea {
+    height: 300px;
+    width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: 3px solid var(--color-offwhite);
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+}
+
+input[type="radio"] {
+    border-radius: 50%;
+}
+
+.button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 30px;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+
+}
