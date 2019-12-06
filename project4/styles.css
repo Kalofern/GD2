@@ -1,26 +1,77 @@
 body {
     margin: 0;
     background-color: black;
-    color: cornsilk;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
 
+
+
 h1 {
-    /* text-transform: uppercase; */
-    font-family: 'Solway', serif;
+    text-transform: uppercase;
+    /* font-size: 150px; */
+    text-align: center;
+    font-family: 'Arbutus Slab', serif;
     margin: 0;
-    margin-top: 60px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
 
 }
 
-h3 section {
-    padding: 100px 30px;
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 -12px;
+
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    color: #51ffff;
+    margin-right: 4px;
+    margin-left: 4px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    color: hsl(296, 59%, 54%);
+}
+
+
+h2 {
+    font-size: 50px;
+    /* text-decoration: underline wavy #51ffff; */
+}
+
+main {
     background-color: magenta;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 20px;
-    /* margin-top: 30px; */
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 24px;
-    max-width: 1000px;
+}
+
+section {
+    /* padding: 10px 20px; */
+    /* background-color: magenta; */
+    /* margin-left: 300px;
+    margin-right: 300px; */
+    /* margin-bottom: 24px; */
+    /* max-width: 1000px; */
     /* just a demo */
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #51ffff;
+
 }
