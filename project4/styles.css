@@ -1,0 +1,163 @@
+:root {
+    --color-pink: magenta;
+    --color-blue: #51ffff;
+    --color-black: black;
+    --color-white: white;
+}
+
+/* ORDER TO PUT SHIT IN
+
+1.   ROOT
+1.5. UTILITY CLASSES
+2.   GLOBAL SETTINGS (h1, h2, main, img)
+3.   CUSTOM STYLES (classes)
+
+*/
+
+.button-reset {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+    text-align: inherit;
+}
+
+.button-reset[disabled] {
+    cursor: default;
+}
+
+.tickets {
+    background: var(--color-blue);
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+    margin: 0;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: 'Poppins', sans-serif;
+    padding: 60px;
+    overflow-x: hidden;
+    overflow-x: -moz-hidden-unscrollable;
+}
+
+img {
+    /* couldnt center without display block? why?*/
+    display: block;
+    padding-right: 20px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+    overflow-x: -moz-hidden-unscrollable;
+
+
+}
+
+
+h1 {
+    text-transform: uppercase;
+    /* font-size: 150px; */
+    text-align: center;
+    font-family: 'Arbutus Slab', serif;
+    margin: 0;
+    margin-top: 40px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 -12px;
+}
+
+ol {
+    font-size: 20px;
+    padding-left: 0;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+}
+
+li a {
+    color: var(--color-blue);
+    margin-right: 4px;
+    margin-left: 4px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+li a:hover,
+li a:focus {
+    color: var(--color-pink);
+}
+
+
+main {
+    background-color: var var(--color-black);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: -5px;
+}
+
+h2 {
+    font-size: 50px;
+    border-bottom: 10px dotted var(--color-blue);
+    margin-left: -50px;
+    padding-left: 50px;
+
+}
+
+section {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    padding: 30px;
+
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--color-blue);
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    h2 {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 414px) {
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 614px) {
+    h1 {
+        font-size: 80px;
+    }
+}
+
+@media (min-width: 764px) {
+    h1 {
+        font-size: 100px;
+    }
+}
