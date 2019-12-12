@@ -3,8 +3,19 @@ body {
     background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif;
+    padding: 60px;
+
 }
 
+img {
+    /* couldnt center without display block? why?*/
+    display: block;
+    padding-right: 20px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 
 
 h1 {
@@ -46,27 +57,27 @@ li a:focus {
 }
 
 
-h2 {
-    font-size: 50px;
-    /* text-decoration: underline wavy #51ffff; */
-}
-
 main {
-    background-color: magenta;
+    background-color: black;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
 }
 
+h2 {
+    font-size: 50px;
+    border-bottom: 10px dotted #51ffff;
+    margin-left: -50px;
+    padding-left: 50px;
+    padding-bottom: -300px;
+}
+
 section {
-    /* padding: 10px 20px; */
-    /* background-color: magenta; */
-    /* margin-left: 300px;
-    margin-right: 300px; */
-    /* margin-bottom: 24px; */
-    /* max-width: 1000px; */
-    /* just a demo */
+    background-color: magenta;
+    color: white;
+    padding: 30px;
+
 }
 
 h3 {
